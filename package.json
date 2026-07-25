@@ -5,10 +5,10 @@
     "start": "node dist/server/server.js"
   },
   "dependencies": {
+    "@poppinss/cliui": "~3.0.5",
     "@types/cors": "^2.8.19",
     "@types/dotenv": "^6.1.1",
     "@types/express": "^5.0.6",
-    "@poppinss/cliui": "~3.0.5",
     "cors": "^2.8.6",
     "dotenv": "^17.4.2",
     "express": "^5.2.1",
@@ -17,6 +17,7 @@
   "devDependencies": {
     "@types/node": "^25.9.3",
     "@types/nodemailer": "^8.0.1",
-    "tsx": "^4.22.4"
+    "tsx": "^4.22.4",
+    "typescript": "^7.0.2"
   }
 }
