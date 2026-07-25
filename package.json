@@ -2,9 +2,6 @@
   "name": "backend",
   "version": "1.0.0",
   "private": true,
-  "engines": {
-    "node": "22.x"
-  },
   "scripts": {
     "dev": "tsx watch src/server/server.ts",
     "build": "tsc",
@@ -22,9 +19,9 @@
     "nodemailer": "^9.0.0"
   },
   "devDependencies": {
-    "@types/node": "^25.9.3",
+    "@types/node": "24.13.3",
     "@types/nodemailer": "^8.0.1",
     "tsx": "^4.22.4",
-    "typescript": "^7.0.2"
+    "typescript": "5.9.3"
   }
 }
