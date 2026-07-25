@@ -2,6 +2,8 @@
 
 Backend Express preparado para desplegarse en Vercel como Serverless Function.
 
+El directorio `public` existe solo para cumplir la validacion de salida estatica de Vercel.
+
 ## Scripts
 
 ```bash
