@@ -1,8 +1,14 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
   "scripts": {
     "dev": "tsx watch src/server/server.ts",
     "build": "tsc",
-    "start": "node dist/server/server.js"
+    "start": "node dist/src/server/server.js"
   },
   "dependencies": {
     "@poppinss/cliui": "~3.0.5",

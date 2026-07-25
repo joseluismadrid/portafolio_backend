@@ -1,4 +1,4 @@
-import { IContact } from './../interface/contact.interface';
+import type { IContact } from '../interface/contact.interface.js';
 
 
 
