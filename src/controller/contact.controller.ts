@@ -33,7 +33,11 @@ export class ContactController {
 
       res.status(200).json(resultado);
     } catch (error) {
-      logger.error('No se pudo enviar el correo', error);
+      logger.error(
+        error instanceof Error
+          ? error.message
+          : String(error)
+      );
 
       res.status(500).json({
         success: false,
